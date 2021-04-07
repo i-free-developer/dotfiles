@@ -47,8 +47,8 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = mail2xiaohupei@163.com
-	name = xiaohupei
+	email = i-freeman@outlook.outlook.com
+	name = xiaohu
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
