@@ -29,16 +29,17 @@ export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
 # Encoding stuff for the terminal
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
-export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 PATH=/bin:/usr/bin:/usr/local/bin:${PATH}  
 export PATH
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 export RUBY_BUILD_MIRROR_URL=https://cache.ruby-china.com
-source $ZSH/custom/plugins/incr/incr*.zsh
-export PATH="/usr/local/bin:$PATH"
+#source $ZSH/custom/plugins/incr/incr*.zsh
+source ~/.oh-my-zsh/plugins/incr/incr*.zsh
 
-source ~/.bash_profile
-export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export PATH="/usr/local/bin:$PATH"
+export PATH="$PATH:$HOME/.rvm/bin"
+
+#source ~/.bash_profile
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
