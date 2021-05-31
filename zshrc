@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 #ZSH_THEME="robbyrussell"
 ZSH_THEME="agnoster"
 # Useful plugins for Rails development with Sublime Text
-plugins=(gitfast git incr bundler dotenv osx rake rbenv ruby last-working-dir common-aliases sublime zsh-syntax-highlighting history-substring-search)
+plugins=(gitfast git bundler dotenv osx rake rbenv ruby last-working-dir common-aliases sublime zsh-syntax-highlighting history-substring-search)
 
 # Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/share/doc/homebrew/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
@@ -41,5 +41,7 @@ export PATH="/usr/local/bin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin"
 
 #source ~/.bash_profile
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
